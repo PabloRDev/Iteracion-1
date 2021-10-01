@@ -47,3 +47,32 @@ y = 10; z = 5;
 x = y * z;
 
 // Iteración #4
+//1.1
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+
+console.log(avengers[0])
+//1.2
+const avengerss = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+avengerss[0] = "IRONMAN"
+
+// 1.3
+const avengersss = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+
+console.log(avengers.length)
+//1.4
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+rickAndMortyCharacters.push()
+
+console.log(rickAndMortyCharacters[2])
+//1.5
+const rickAndMortyCharacterss = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+rickAndMortyCharacterss.pop()
+
+console.log(rickAndMortyCharacterss)
+//1.6
+const rickAndMortyCharactersss = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+
+rickAndMortyCharactersss.splice(1, 1);
+
+console.log(rickAndMortyCharactersss)
+
