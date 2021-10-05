@@ -43,36 +43,85 @@ console.log(car2.finalPrice);
 // Iteración #3
 multiplication = 10 * 5;
 division = 10 / 2;
-y = 10; z = 5;
+y = 10;
+z = 5;
 x = y * z;
 
 // Iteración #4
 //1.1
 const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
 
-console.log(avengers[0])
+console.log(avengers[0]);
 //1.2
 const avengerss = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
-avengerss[0] = "IRONMAN"
+avengerss[0] = "IRONMAN";
 
 // 1.3
 const avengersss = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
 
-console.log(avengers.length)
+console.log(avengers.length);
 //1.4
 const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
-rickAndMortyCharacters.push()
+rickAndMortyCharacters.push("Morty", "Summer");
 
-console.log(rickAndMortyCharacters[2])
+console.log(rickAndMortyCharacters[4]);
 //1.5
-const rickAndMortyCharacterss = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
-rickAndMortyCharacterss.pop()
+const rickAndMortyCharacterss = [
+  "Rick",
+  "Beth",
+  "Jerry",
+  "Morty",
+  "Summer",
+  "Lapiz Lopez",
+];
+rickAndMortyCharacterss.pop();
 
-console.log(rickAndMortyCharacterss)
+console.log(rickAndMortyCharacterss);
 //1.6
-const rickAndMortyCharactersss = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+const rickAndMortyCharactersss = [
+  "Rick",
+  "Beth",
+  "Jerry",
+  "Morty",
+  "Summer",
+  "Lapiz Lopez",
+];
 
 rickAndMortyCharactersss.splice(1, 1);
 
-console.log(rickAndMortyCharactersss)
+console.log(rickAndMortyCharactersss);
+
+//Iteracion #5
+const number1 = 10;
+const number2 = 20;
+const number3 = 2;
+
+if (number2 / number1 == 2) {
+  console.log("number2 dividido entre number1 es igual a 2");
+}
+
+if (number1 !== number2) {
+  console.log("number1 es estrictamente distinto a number2");
+}
+
+if (number3 != number1) {
+  console.log("number3 es distinto number1");
+}
+
+if (number3 * 5 == number1) {
+  console.log("number3 por 5 es igual a number1");
+}
+
+if (number3 * 5 == number1 && number1 * 2 == number2) {
+  console.log(
+    "number3 por 5 es igual a number1 Y number1 por 2 es igual a number2"
+  );
+}
+
+if (number2 / 2 == number1 || number1 / 5 == number3) {
+  console.log(
+    "number2 entre 2 es igual a number1 O number1 entre 5 es igual a number3"
+  );
+}
+
 
